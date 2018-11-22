@@ -28,5 +28,5 @@ AM_INIT_AUTOMAKE([1.13 -Wno-portability subdir-objects foreign])
 LT_INIT([win32-dll])
 LT_LANG([Windows Resource])
 
-AC_CONFIG_FILES([Makefile src/Makefile])
+AC_CONFIG_FILES([Makefile src/Makefile quicksort/Makefile])
 AC_OUTPUT
